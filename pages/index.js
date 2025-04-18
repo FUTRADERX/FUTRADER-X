@@ -5,9 +5,8 @@ export default function Home() {
     <div className="container">
       <h1 className="logo">FUTRADERX</h1>
       <p className="tagline">Get paid to trade. No cap, no fluff.</p>
-
-      <Link href="/login" passHref>
-        <button className="start-btn">Start Challenge</button>
+      <Link href="/login">
+        <button className="start-btn">Login</button>
       </Link>
     </div>
   );
